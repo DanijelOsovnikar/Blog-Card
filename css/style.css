@@ -30,6 +30,9 @@ main {
   border-radius: 1.5rem;
   margin: 1rem 0;
 }
+main:hover {
+  box-shadow: 12px 15px hsl(0, 0%, 7%);
+}
 main .img {
   width: 85%;
   height: 40%;
@@ -67,6 +70,10 @@ main article h1 {
   color: hsl(0, 0%, 7%);
   font-weight: 800;
   font-size: 1.3rem;
+}
+main article h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 main article p {
   color: hsl(0, 0%, 50%);
