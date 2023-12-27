@@ -98,13 +98,17 @@ main {
     }
   }
 }
-.attribution {
-  position: absolute;
-  bottom: 5px;
-  width: 85%;
-  text-align: center;
-  a {
-    text-decoration: none;
-    color: $black;
+footer {
+  margin: 2rem 0;
+  width: 100%;
+  .attribution {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: $black;
+    }
   }
 }

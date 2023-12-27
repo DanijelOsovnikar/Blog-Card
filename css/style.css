@@ -96,13 +96,17 @@ main .footer .name {
   font-weight: 800;
 }
 
-.attribution {
+footer {
+  margin: 2rem 0;
+  width: 100%;
+}
+footer .attribution {
   position: absolute;
   bottom: 5px;
-  width: 85%;
+  width: 100%;
   text-align: center;
 }
-.attribution a {
+footer .attribution a {
   text-decoration: none;
   color: hsl(0, 0%, 7%);
 }
